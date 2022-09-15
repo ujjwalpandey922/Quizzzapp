@@ -1,0 +1,48 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.setting{
+    display: flex;
+    flex-direction: column;
+  padding: 5px;
+  width: 40%;
+  font-weight: 300;
+    align-items: center;
+    font-family: "Poppins",sans-serif;
+}
+.Banner{
+    
+    align-self: center;
+    padding: 8px;
+}
+.setting_selected{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 0.7;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+@media (max-width :800px) {
+    .content{
+        display: flex;
+        flex-direction: column-reverse;       
+    }
+    .setting{
+      width: 100%;
+    }
+    .Banner{
+        width: 50vw;
+        padding: 0;
+        padding-top: 10px;
+    }
+    .setting_selected{
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 10px;
+    }
+    
+}

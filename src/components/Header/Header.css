@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-family: "Montserrat";
+    font-size: 4vw;
+    text-transform: uppercase;
+}
